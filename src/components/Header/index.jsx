@@ -23,12 +23,12 @@ function Header(){
                 <a href="">VÍDEOS</a>
             </nav>
 
-            <div class={`${styles.searchContainer} ${searchOpen() ? styles.searchOpen : ''}`}>
+            <div class={`${styles.searchContainerClose} ${searchOpen() ? styles.searchContainerOpen : ''}`}>
                 <Show when={searchOpen()}>
                     <input
                         type="text"
-                        placeholder="Pesquisar..."
-                        class={styles.searchInput}
+                        placeholder="O que você procura?"
+                        class={`${styles.searchInput} ${searchOpen() ? styles.searchInputOpen : ''}`}
                     />
                 </Show>
                 <AiOutlineSearch class={styles.searchIcon} size={36} onClick={handleSearchClick}/>
