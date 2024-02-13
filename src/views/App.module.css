@@ -20,39 +20,3 @@
   margin: 10px 0;
 }
 
-.news{
-  margin: 0 auto;
-  max-width: 75vw;
-}
-
-.newsRow {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.columnGrid {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: start;
-}
-
-.rowGrid {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-@media (max-width: 1800px) {
-  .newsGrid {
-    justify-content: center;
-  }
-
-  .columnGrid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex: 1;
-    flex-direction: row;
-  }
-}
