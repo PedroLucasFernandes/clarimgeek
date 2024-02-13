@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  width: 55em;
+  margin: 0.5em 0;
+}
+
+img {
+  width: 55em;
+}
+
+.title {
+  display: block;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: justify;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: wrap;
+}
+
+.textDiv h1, p{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.2em;
+}
