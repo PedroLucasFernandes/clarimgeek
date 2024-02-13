@@ -5,53 +5,53 @@ import styles from "./LastArticles.module.css";
 function LastArticles(){
     return(
         <section class={styles.articles}>
-        <h2 class={styles.topics}>ÚLTIMOS ARTIGOS:</h2>
-        <div class={styles.articlesColumn}>
-            <div class={styles.articlesRow}>
-                <Post
-                img={capa}
-                title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                desc="Tekken 8 cumpre o que promete com gráficos de nova geração, 
-                uma história cinematográfica e modos inovadores para os fãs. 
-                Confira a nossa review!"
-                />
-                <div class={styles.columnGrid}>
-                <Post
-                    img={capa}
-                    title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
-                    width="24"
-                    fontSize="1.5"   
-                />
-                <Post
-                    img={capa}
-                    title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
-                    width="24"
-                    fontSize="1.5"
-                />
+            <h2 class={styles.topics}>ÚLTIMOS ARTIGOS:</h2>
+            <div class={styles.articlesColumn}>
+                <div class={styles.articlesRow}>
+                    <Post
+                        img={capa}
+                        title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
+                        desc="Tekken 8 cumpre o que promete com gráficos de nova geração, 
+                        uma história cinematográfica e modos inovadores para os fãs. 
+                        Confira a nossa review!"
+                    />
+                    <div class={styles.columnGrid}>
+                        <Post
+                            img={capa}
+                            title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
+                            width="24"
+                            fontSize="1.5"   
+                        />
+                        <Post
+                            img={capa}
+                            title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
+                            width="24"
+                            fontSize="1.5"
+                        />
+                    </div>
+                </div>
+                <div class={styles.rowGrid}>
+                    <Post
+                        img={capa}
+                        title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
+                        width="24"
+                        fontSize="1.5"   
+                    />
+                    <Post
+                        img={capa}
+                        title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
+                        width="24"
+                        fontSize="1.5"
+                    />                
+                    <Post
+                        img={capa}
+                        title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
+                        width="24"
+                        fontSize="1.5"
+                    />
+                </div>  
             </div>
-        </div>
-          <div class={styles.rowGrid}>
-            <Post
-                img={capa}
-                title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
-                width="24"
-                fontSize="1.5"   
-            />
-            <Post
-                img={capa}
-                title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
-                width="24"
-                fontSize="1.5"
-            />                
-            <Post
-                img={capa}
-                title="Review: Tekken 8 tem tudo para ser o jogo de luta do ano"
-                width="24"
-                fontSize="1.5"
-            />
-          </div>  
-        </div>
-      </section>  
+        </section>  
     );
 }
 

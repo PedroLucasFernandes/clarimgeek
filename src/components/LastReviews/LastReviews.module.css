@@ -1,0 +1,36 @@
+
+.reviews {
+    margin: 0 auto;
+    max-width: 75vw;
+    color: white;
+}
+
+
+.mainCallRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewsRow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.mainColumn {
+    display: flex;
+    flex-flow: column wrap;
+    /* padding-right: 10em; */
+    /* border-right: 1px solid white; */
+}
+
+.mainRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subColumn {
+    display: flex;
+    flex-flow: column wrap;
+}

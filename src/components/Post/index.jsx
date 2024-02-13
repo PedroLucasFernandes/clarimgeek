@@ -5,7 +5,7 @@ function Post(props) {
         <a 
             class={styles.card}
             style={{
-                width: `${props.width}em`
+                width: `${props.width}em`,
             }}
         >
             <img 
