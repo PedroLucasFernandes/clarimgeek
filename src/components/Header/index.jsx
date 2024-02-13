@@ -3,7 +3,7 @@ import { Show } from 'solid-js/web';
 import styles from './Header.module.css';
 import capa from '../../assets/capa-clarim.png';
 import { AiOutlineSearch, AiFillYoutube, AiFillInstagram } from 'solid-icons/ai';
-import { FaBrandsTiktok } from 'solid-icons/fa';
+import { FaBrandsTiktok, FaBrandsDiscord } from 'solid-icons/fa';
 
 function Header(){
 
@@ -36,9 +36,18 @@ function Header(){
 
             <div class={styles.divider}></div>
 
-            <AiFillYoutube size={44}/>
-            <AiFillInstagram class={styles.icons} size={36}/>
-            <FaBrandsTiktok class={styles.icons} size={28}/>
+            <a href='https://www.youtube.com/channel/UCYb3xf-wmEwrg0hgx6EEjhg' target="_blank">
+                <AiFillYoutube size={44} style={{ display: 'block' }}/>
+            </a>
+            <a href='https://www.instagram.com/clarimgeekbr/' target="_blank">
+                <AiFillInstagram class={styles.icons} style={{ display: 'block' }} size={36}/>
+            </a>
+            <a href='https://www.tiktok.com/@clarimgeekbr?_t=8jq2ELfsLnK&_r=1' target="_blank">
+                <FaBrandsTiktok class={styles.icons} style={{ display: 'block' }} size={28}/>
+            </a>
+            <a href='https://discord.gg/pmsEmvQs6J' target="_blank">
+                <FaBrandsDiscord class={`${styles.icon} ${styles.lastIcon}`} style={{ display: 'block' }} size={36}/>
+            </a>
         </header>
     );
 }
