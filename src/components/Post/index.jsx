@@ -7,14 +7,18 @@ function Post(props) {
             style={{
                 width: `${props.width}em`,
             }}
-        >
-            <img 
-                src={props.img}
-                alt="Notícia 1" 
-                style={{
-                    width: `${props.width}em`
-                }}
-            />
+        >   
+            <div class={styles.imageContainer}>
+                <img 
+                    src={props.img}
+                    alt="Notícia 1" 
+                    style={{
+                        width: `${props.width}em`
+                    }}
+                />
+                <div class={styles.theme}>REVIEW</div>
+            </div>
+            
             <div class={styles.textDiv}>
                 <h1 
                     class={styles.title}

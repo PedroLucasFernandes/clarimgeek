@@ -31,7 +31,7 @@ function Footer(){
                 <a href="">SUPORTE</a>
             </div>
             <div>
-                <p>©2023 by Clarim Geek. All Rights Reserved.</p>
+                <p>©2024 by Clarim Geek. All Rights Reserved.</p>
             </div>
         </footer>
     );
