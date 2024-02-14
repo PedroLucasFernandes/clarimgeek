@@ -1,6 +1,6 @@
 import Post from "../Post";
-import styles from "./LastReviews.module.css"
-import capa from "../../assets/TEKKEN8.jpeg"
+import styles from "./LastReviews.module.css";
+import capa from "../../assets/TEKKEN8.jpeg";
 
 function LastReviews(props) {
     return(

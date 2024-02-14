@@ -1,0 +1,42 @@
+.footer{
+    padding: 0.7em;
+    background-color: #252323;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.footer img{
+    width: 5em;
+}
+
+.medias, .footerInfo, .footer p, .logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a, .footer p{
+    color: white;
+}
+
+.footer a:hover{
+    color: #e34c24;
+    transition: 0.3s;
+}
+
+.medias a:not(:last-of-type){
+    margin-right: 30px;
+}
+
+.footerInfo{
+    margin: 15px 0;
+}
+
+.footer .divider {
+    width: 1px;
+    height: 16px;
+    background-color: white;
+    margin: 0 20px;
+}

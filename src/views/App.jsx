@@ -4,6 +4,7 @@ import destaque from '../assets/destaque.jpg';
 import Featured from '../components/Featured';
 import LastArticles from '../components/LastArticles';
 import LastReviews from '../components/LastReviews';
+import Footer from '../components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
         <Featured img={destaque} theme="GUIA" title="THE WITCHER 3: DICAS PARA FINALIZAR O JOGO"/>
         <LastArticles />
         <LastReviews />
+        <LastArticles />
       </main>
+
+      <Footer />
     </div>
   );
 }
