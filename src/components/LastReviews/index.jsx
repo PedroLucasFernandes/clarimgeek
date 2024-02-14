@@ -8,9 +8,9 @@ function LastReviews(props) {
             <section class={styles.reviews}>
                 <div class={styles.reviewsRow}>
                     <div class={styles.mainColumn}>
-                        <div class={styles.mainCallRow}>
-                            <h2>ÚLTIMAS REVIEWS:</h2>
-                            <h2>VER MAIS</h2>
+                        <div class={styles.mainTopicsRow}>
+                            <h2 class={styles.topics}>ÚLTIMAS REVIEWS:</h2>
+                            <a href="" class={styles.viewMore}>VER MAIS</a>
                         </div>   
                         <Post 
                             img={capa}
@@ -40,7 +40,7 @@ function LastReviews(props) {
                         margin: "2em 0" 
                     }} /> {/*Divider*/}
                     <div class={styles.subColumn}>
-                        <h2>ÚLTIMAS NOTÍCIAS:</h2>
+                        <h2 class={styles.topics}>ÚLTIMAS NOTÍCIAS:</h2>
                         <Post 
                             img={capa}
                             title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"

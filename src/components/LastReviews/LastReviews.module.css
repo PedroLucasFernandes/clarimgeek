@@ -7,9 +7,32 @@
 }
 
 
-.mainCallRow {
+.mainTopicsRow {
     display: flex;
     justify-content: space-between;
+    align-items: end;
+}
+
+.topics{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2em;
+    max-width: 75vw;
+    margin: 10px 0;
+}
+
+.viewMore{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5em;
+    max-width: 75vw;
+    margin: 10px 0;
+}
+
+.viewMore:hover{
+    color: #e34c24;
+    transition: 0.3s;
 }
 
 .reviewsRow {
@@ -21,8 +44,6 @@
 .mainColumn {
     display: flex;
     flex-flow: column wrap;
-    /* padding-right: 10em; */
-    /* border-right: 1px solid white; */
 }
 
 .mainRow {
