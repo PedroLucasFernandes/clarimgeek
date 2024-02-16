@@ -1,0 +1,53 @@
+.subColumn {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.videosContainer{
+    background-color: #252323;
+    padding: 12px;
+    max-width: 360px;
+    border-radius: 2px;
+    h1, h2{
+        color: white;
+        font-weight: bold;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+.topics{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f86840;
+    color: black;
+    font-size: 2em;
+    max-width: 75vw;
+    margin: 10px 0;
+}
+
+.videosContainer iframe {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.medias{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: white;
+    }
+}
+
+.medias a:not(:last-of-type){
+    margin-right: 30px;
+}
+
+.medias a:hover{
+    color: #e34c24;
+    transition: 0.3s;
+}

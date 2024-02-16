@@ -14,6 +14,7 @@ function LastReviews(props) {
                         </div>   
                         <Post 
                             img={capa}
+                            theme="REVIEW"
                             title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
                             desc="Tekken 8 cumpre o que promete com gráficos de nova geração, 
                             uma história cinematográfica e modos inovadores para os fãs. 
@@ -22,12 +23,14 @@ function LastReviews(props) {
                         <div class={styles.mainRow}>
                             <Post 
                                 img={capa}
+                                theme="REVIEW"
                                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
                                 width="24"
                                 fontSize="1.5" 
                                 />
                             <Post 
                                 img={capa}
+                                theme="REVIEW"
                                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
                                 width="24"
                                 fontSize="1.5" 
@@ -43,18 +46,21 @@ function LastReviews(props) {
                         <h2 class={styles.topics}>ÚLTIMAS NOTÍCIAS:</h2>
                         <Post 
                             img={capa}
+                            theme="NOTÍCIA"
                             title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
                             width="24"
                             fontSize="1.5" 
                             />
                         <Post 
                             img={capa}
+                            theme="NOTÍCIA"
                             title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
                             width="24"
                             fontSize="1.5" 
                             />
                         <Post 
                             img={capa}
+                            theme="NOTÍCIA"
                             title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
                             width="24"
                             fontSize="1.5" 

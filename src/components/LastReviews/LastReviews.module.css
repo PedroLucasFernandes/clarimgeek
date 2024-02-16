@@ -16,6 +16,8 @@
 .topics{
     font-weight: bold;
     text-decoration: underline;
+    text-decoration-color: #f86840;
+    color: white;
     font-size: 2em;
     max-width: 75vw;
     margin: 10px 0;

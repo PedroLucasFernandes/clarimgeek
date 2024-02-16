@@ -16,7 +16,7 @@ function Post(props) {
                         width: `${props.width}em`
                     }}
                 />
-                <div class={styles.theme}>REVIEW</div>
+                <div class={styles.theme}>{props.theme}</div>
             </div>
             
             <div class={styles.textDiv}>
