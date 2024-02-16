@@ -6,7 +6,6 @@ import LastArticles from '../components/LastArticles';
 import LastReviews from '../components/LastReviews';
 import Footer from '../components/Footer';
 import Trending from '../components/Trending';
-import LastVideos from '../components/LastVideos';
 
 function App() {
   return (

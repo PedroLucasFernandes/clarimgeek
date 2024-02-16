@@ -1,6 +1,7 @@
 import Post from "../Post";
 import styles from "./LastReviews.module.css";
 import capa from "../../assets/TEKKEN8.jpeg";
+import LastNews from "../LastNews";
 
 function LastReviews(props) {
     return(
@@ -42,30 +43,7 @@ function LastReviews(props) {
                         "background-color": "white",
                         margin: "2em 0" 
                     }} /> {/*Divider*/}
-                    <div class={styles.subColumn}>
-                        <h2 class={styles.topics}>ÚLTIMAS NOTÍCIAS:</h2>
-                        <Post 
-                            img={capa}
-                            theme="NOTÍCIA"
-                            title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                            width="24"
-                            fontSize="1.5" 
-                            />
-                        <Post 
-                            img={capa}
-                            theme="NOTÍCIA"
-                            title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                            width="24"
-                            fontSize="1.5" 
-                            />
-                        <Post 
-                            img={capa}
-                            theme="NOTÍCIA"
-                            title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                            width="24"
-                            fontSize="1.5" 
-                            />
-                    </div>
+                    <LastNews />
                 </div>
             </section>
         </div>
