@@ -1,0 +1,60 @@
+
+.reviews {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 75vw;
+    color: white;
+}
+
+
+.mainTopicsRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.topics{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f86840;
+    color: white;
+    font-size: 2em;
+    max-width: 75vw;
+    margin: 10px 0;
+}
+
+.viewMore{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5em;
+    max-width: 75vw;
+    margin: 10px 0;
+}
+
+.viewMore:hover{
+    color: #e34c24;
+    transition: 0.3s;
+}
+
+.reviewsRow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.mainColumn {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.mainRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subColumn {
+    display: flex;
+    flex-flow: column wrap;
+}
