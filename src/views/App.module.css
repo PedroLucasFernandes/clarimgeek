@@ -11,12 +11,3 @@
 .App {
   box-sizing: border-box;
 }
-
-.topics{
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: 2em;
-  max-width: 75vw;
-  margin: 10px 0;
-}
-
