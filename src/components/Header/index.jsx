@@ -15,7 +15,7 @@ function Header(){
 
     return (
         <header class={styles.header}>
-            <img src={capa} alt="logo"/>
+            <a><img src={capa} alt="logo"/></a>
             <nav class={styles.nav}>
                 <a href="">PÁGINA INICIAL</a>
                 <a href="">NOTÍCIAS</a>
