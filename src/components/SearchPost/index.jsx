@@ -1,12 +1,9 @@
-import styles from "./Post.module.css";
+import styles from "./SearchPost.module.css";
 
-function Post(props) {
+function SearchPost(props) {
     return (
         <a 
             class={styles.card}
-            style={{
-                width: `${props.width}em`,
-            }}
         >   
             <div class={styles.imageContainer}>
                 <img 
@@ -38,4 +35,4 @@ function Post(props) {
     )
 }
 
-export default Post;
+export default SearchPost;

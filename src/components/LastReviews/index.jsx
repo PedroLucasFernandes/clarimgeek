@@ -3,6 +3,11 @@ import styles from "./LastReviews.module.css";
 import capa from "../../assets/TEKKEN8.jpeg";
 import LastNews from "../LastNews";
 
+const params = {
+    width: "24",
+    fontSize: "1.5"
+}
+
 function LastReviews(props) {
     return(
         <div style={{ "background-color":"#252323" }}>
@@ -26,15 +31,13 @@ function LastReviews(props) {
                                 img={capa}
                                 theme="REVIEW"
                                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                                width="24"
-                                fontSize="1.5" 
-                                />
+                                {...params}
+                            />
                             <Post 
                                 img={capa}
                                 theme="REVIEW"
                                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                                width="24"
-                                fontSize="1.5" 
+                                {...params}
                                 />
                         </div>
                     </div>

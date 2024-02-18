@@ -35,21 +35,10 @@
   }
 }
 
-.searchContainerClose, .searchContainerOpen {
+.searchContainer {
   display: flex;
   align-items: center;
-}
-
-.searchContainerClose {
-  margin-left: 37rem;
-}
-
-.searchContainerOpen {
   margin-left: 20.85rem;
-}
-
-.header .searchIcon {
-  cursor: pointer;
 }
 
 .searchInput {

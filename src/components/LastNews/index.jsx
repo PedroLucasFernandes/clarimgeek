@@ -2,6 +2,11 @@ import Post from "../Post";
 import styles from "./LastNews.module.css";
 import capa from "../../assets/TEKKEN8.jpeg";
 
+const params = {
+    width: "24",
+    fontSize: "1.5"
+}
+
 function LastNews(){
     return(
         <div class={styles.subColumn}>
@@ -10,22 +15,19 @@ function LastNews(){
                 img={capa}
                 theme="NOTÍCIA"
                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                width="24"
-                fontSize="1.5" 
+                {...params} 
                 />
             <Post 
                 img={capa}
                 theme="NOTÍCIA"
                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                width="24"
-                fontSize="1.5" 
+                {...params} 
                 />
             <Post 
                 img={capa}
                 theme="NOTÍCIA"
                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                width="24"
-                fontSize="1.5" 
+                {...params} 
                 />
         </div>
     );

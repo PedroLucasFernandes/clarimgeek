@@ -1,9 +1,12 @@
 import Post from "../Post";
 import styles from "./LastArticles.module.css";
 import capa from "../../assets/TEKKEN8.jpeg";
-import { AiFillYoutube } from 'solid-icons/ai';
-import { FaBrandsTiktok } from 'solid-icons/fa';
 import LastVideos from "../LastVideos";
+
+const params = {
+    width: "24",
+    fontSize: "1.5"
+}
 
 function LastArticles(props) {
     return(
@@ -28,15 +31,13 @@ function LastArticles(props) {
                                 img={capa}
                                 theme="REVIEW"
                                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                                width="24"
-                                fontSize="1.5" 
+                                {...params} 
                                 />
                             <Post 
                                 img={capa}
                                 theme="REVIEW"
                                 title="Review: Tekken 8 tem tudo para ser o jogo de luta dos ano"
-                                width="24"
-                                fontSize="1.5" 
+                                {...params} 
                                 />
                         </div>
                     </div>

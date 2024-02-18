@@ -1,5 +1,3 @@
-import { createSignal } from 'solid-js';
-import { Show } from 'solid-js/web';
 import styles from './Header.module.css';
 import capa from '../../assets/capa-clarim.png';
 import { AiOutlineSearch, AiFillYoutube, AiFillInstagram } from 'solid-icons/ai';
@@ -7,31 +5,23 @@ import { FaBrandsTiktok, FaBrandsDiscord } from 'solid-icons/fa';
 
 function Header(){
 
-    const [searchOpen, setSearchOpen] = createSignal(false);
-
-    const handleSearchClick = () => {
-        setSearchOpen(prevState => !prevState);
-    };
-
     return (
         <header class={styles.header}>
-            <a><img src={capa} alt="logo"/></a>
+            <a href='/'><img src={capa} alt="logo"/></a>
             <nav class={styles.nav}>
-                <a href="">PÁGINA INICIAL</a>
+                <a href="/">PÁGINA INICIAL</a>
                 <a href="">NOTÍCIAS</a>
                 <a href="">REVIEWS</a>
                 <a href="">VÍDEOS</a>
             </nav>
 
-            <div class={`${styles.searchContainerClose} ${searchOpen() ? styles.searchContainerOpen : ''}`}>
-                <Show when={searchOpen()}>
+            <div class={styles.searchContainer}>
                     <input
                         type="text"
                         placeholder="O que você procura?"
-                        class={`${styles.searchInput} ${searchOpen() ? styles.searchInputOpen : ''}`}
+                        class={styles.searchInput}
                     />
-                </Show>
-                <AiOutlineSearch class={styles.searchIcon} size={36} onClick={handleSearchClick}/>
+                <a href='/search'><AiOutlineSearch class={styles.searchIcon} size={36}/></a>
             </div>
 
             <div class={styles.divider}></div>

@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+.card {
+    width: 55em;
+    margin: 0.5em 0;
+    display: flex;
+}
+
+img {
+    width: 55em;
+}
+
+.imageContainer {
+    position: relative;
+    margin-right: 1em;
+}
+
+.imageContainer .theme {
+    position: absolute;
+    top: 3%;
+    left: 1.2%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.theme {
+    position: absolute;
+    top: 3%;
+    left: 1.2%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.title {
+    display: block;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: justify;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
+    margin: 0;
+    margin-bottom: 0.7em;
+}
+
+.textDiv h1, p{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.description {
+    font-size: 1.2em;
+}
